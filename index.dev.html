@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="./dist/index.min.css">
+</head>
+<body data-app="index.app">
+    
+    <div data-bind="foreach: carousels">
+        <!-- ko with: $data -->
+        <div class="carousel">
+            <span data-bind="text: value"></span>
+            <button class="next" data-bind="click: next">Next</button>
+        </div>
+        <!-- /ko -->
+    </div>
+
+    <!-- build:js ./dist/index.min.js -->
+    <script src="./node_modules/requirejs/require.js"></script>
+    <script src="./dist/config.js"></script>
+    <script src="./dist/index.js"></script>
+    <!-- /build -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "widget.js",
+  "sourceRoot": "../../src/core/",
+  "sources": [
+    "widget.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAA;iSAAA;;AAAA,MAAA,CAAO,SAAC,OAAD,GAAA;AAEL,MAAA,mBAAA;AAAA,EAAA,WAAA,GAAc,OAAA,CAAQ,kBAAR,CAAd,CAAA;SAEM;AAAN,6BAAA,CAAA;;;;KAAA;;kBAAA;;KAAqB,aAJhB;AAAA,CAAP,CAAA,CAAA"
+}

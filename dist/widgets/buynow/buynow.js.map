@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "buynow.js",
+  "sourceRoot": "../../../src/widgets/buynow/",
+  "sources": [
+    "buynow.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAA;iSAAA;;AAAA,MAAA,CAAO,SAAC,OAAD,GAAA;AAEL,MAAA,cAAA;AAAA,EAAA,MAAA,GAAS,OAAA,CAAQ,aAAR,CAAT,CAAA;SAEM;AAAN,6BAAA,CAAA;;;;KAAA;;kBAAA;;KAAqB,QAJhB;AAAA,CAAP,CAAA,CAAA"
+}

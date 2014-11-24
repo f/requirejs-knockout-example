@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="./dist/index.min.css">
+</head>
+<body data-app="index.app">
+    
+    <div data-bind="foreach: carousels">
+        <!-- ko with: $data -->
+        <div class="carousel">
+            <span data-bind="text: value"></span>
+            <button class="next" data-bind="click: next">Next</button>
+        </div>
+        <!-- /ko -->
+    </div>
+
+    <script src="./dist/index.min.js"></script>
+</body>
+</html>
